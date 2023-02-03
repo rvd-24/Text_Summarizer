@@ -1,4 +1,5 @@
-from gevent import monkey; monkey.patch_all()
+from gevent import monkey;
+monkey.patch_all()
 from flask import Flask, Response, request,jsonify, make_response
 import tensorflow as tf
 import numpy as np
